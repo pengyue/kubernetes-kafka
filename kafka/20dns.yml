@@ -9,6 +9,6 @@ spec:
   ports:
   - port: 9092
   # [podname].broker.kafka.svc.cluster.local
-  clusterIP: None
   selector:
     app: kafka
+  type: LoadBalancer

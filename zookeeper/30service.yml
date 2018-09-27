@@ -10,3 +10,4 @@ spec:
     name: client
   selector:
     app: zookeeper
+  type: LoadBalancer
